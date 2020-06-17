@@ -1,5 +1,6 @@
 ---
-versionFrom: 8.6.2
+versionFrom: 8.6.0
+versionTo: 8.6.1
 ---
 
 ## Load Balancing Azure Web Apps
@@ -34,9 +35,6 @@ Several file system based services in Umbraco such as the Published Cache and Lu
 ```xml
 <add key="Umbraco.Core.MainDom.Lock" value="SqlMainDomLock" />
 ```
-##### v8.6.2+
-
-The `Umbraco.Core.MainDom.Lock` should be applied to your __MASTER__ Administrative server and all __REPLICA__ scalable public facing servers.
 
 ##### v8.6.0 - v8.6.1
 
